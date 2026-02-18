@@ -197,6 +197,29 @@ def calcula_superposicion_SVD(pdbh1,pdbh2,originalPDBname,fittedPDBname,test=Fal
 	
     return sqrt(rmsd)
 					
+def calcula_identidad(align1, align2):
+    """ Calcula el porcentaje de identidad entre dos alineamientos de secuencia.
+    Devuelve el porcentaje (0-100) de residuos idénticos en posiciones alineadas. """
+    
+    if len(align1) != len(align2):
+        print("# Error: alineamientos tienen longitudes diferentes")
+        return 0.0
+    
+    identicos = 0
+    posiciones_validas = 0
+    
+    for i in range(len(align1)):
+        # Solo contar posiciones donde ambas tienen residuo (no son gap '-')
+        if align1[i] != '-' and align2[i] != '-':
+            posiciones_validas += 1
+            if align1[i] == align2[i]:
+                identicos += 1
+    
+    if posiciones_validas == 0:
+        return 0.0
+    
+    identidad = (identicos / posiciones_validas) * 100
+    return identidad
 
 # 2) programa principal ###################################################
 
@@ -211,6 +234,8 @@ print("# total residuos: pdb1 = %s pdb2 = %s\n" % (len(pdb1['coords']),len(pdb2[
 print("# total residuos alineados = %s\n" % (len(pdb1['align_coords'])))
 
 rmsd = calcula_superposicion_SVD(pdb2,pdb1,'original.pdb','align_fit.pdb')
+identidad = calcula_identidad(pdb1['align'], pdb2['align'])
 
 print("\n# coordenadas originales = original.pdb\n# superposicion optima:\n") 
 print("# archivo PDB = align_fit.pdb\n# RMSD = %1.2f Angstrom\n" % (rmsd))
+print("# Identidad de secuencia = %1.2f %%\n" % (identidad))
