@@ -11,15 +11,12 @@ obtenida. """
 __author__  = 'Bruno Contreras-Moreira' 
 
 # 0) parametros del algoritmo: 
+#superposiciones/2ROHcif_MODEL_20_A.pdb     
+pdb1 = { 'file':'../2ROHcif_MODEL_20_A.pdb', 
+	'align':'GSPFADPNSLALANVPLSRSKRPDFGQRRIRRPFTVAEVELLVEAVEHLGTGRWRDVKFRAFENVHHRTYVDLKDKWKTLV' +
+	'HTASIAPQQRRGAPVPQELLDRVLAAQAYWSVDSSGRIVTL-------------' };
 
-pdb1 = { 'file':'superposiciones/2JUHcif_MODEL_2_A.pdb', 
-	'align':'--------PVNQKS------KRSELSQRRIRRPFSVAEVEALVEAVEHLGTGRWRDVKMRAFDNADHRTYVDLKDKWKTL' +
-	'VHTASIAPQQRRGEPVPQDLLDRVLAAHAYWSQQQGKQHVEPLKILDAKAQKVGA' };
-
-#
-
-
-pdb2 = { 'file':'superposiciones/2AJEcif_MODEL_6_A.pdb', 
+pdb2 = { 'file':'../2ROHcif_MODEL1_A.pdb', 
 	'align':'--------------------------QRRIRRPFSVAEVEALVQAVEKLGTGRWRDVKLCAFEDADHRTYVDLKDKWKTL' +
 	'VHTAKISPQQRRGEPVPQELLNRVLNAHGYWTQQQMQQLQQNV------------' };
 	
