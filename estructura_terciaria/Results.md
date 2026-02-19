@@ -1,7 +1,5 @@
 # Interpretación de Resultados ALphaFold 2
 
-Se realizó un análisis de calidad de la estructura predicha por AlphaFold2 para la proteína eleigida CD300H, que puede desempeñar un papel importante en la inmunidad innata al mediar una señal para la producción de un quimioatrayente de neutrófilos(`test_d2d55_unrelaxed_rank_001_alphafold2_ptm_model_4_seed_000.pdb`), utilizando herramientas de validación estándar como SAVES y Swiss-Model.
-
 ## Resultados de SAVES v6.1
 
 La herramienta SAVES (Structural Analysis and Verification Server) proporciona una validación integral de la estructura proteica.
