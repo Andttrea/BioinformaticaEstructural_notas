@@ -2,7 +2,6 @@
 
 A continuación, se presentan los resultados de la evaluación de calidad utilizando Swiss-Model Structure Assessment para el caso donde hubo un recorte de la secuencia, como en el que no. 
 
-
 ## Resultados para la Secuencia Trimeada (NANOG_trimmed)
 
 Este modelo se centra en el homeodominio de unión al ADN, excluyendo las regiones desordenadas.
