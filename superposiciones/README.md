@@ -12,13 +12,13 @@ Posteriormente, alineamos los dominios seleccionados utilizando Foldseek (https:
 
 Los resultados obtenidos con Foldseek (foldmason) se encuentran en la carpeta:
 
-- foldmason
+- [foldmason](./foldmason/)
 
 ## 3. Selección de parejas de estructuras
 
 Para calcular el porcentaje de identidad y el RMSD seleccionamos aleatoriamente dos parejas de estructuras presentes en el Guide Tree generado por Foldseek.
 
-Las parejas escogidas (registradas en emparejamiento.txt) fueron:
+Las parejas escogidas (registradas en [emparejamiento.txt](./emparejamiento.txt)) fueron:
 
 - Par 1:
 	- 2JUHcif_MODEL_2_A
@@ -35,9 +35,9 @@ Utilizamos el script proporcionado por el Dr. Bruno Contreras, disponible en:
 
 - https://github.com/eead-csic-compbio/bioinformatica_estructural/blob/master/code/prog3.1.py
 
-Además, empleamos un script basado en SVD para la superposición estructural.
+Además, empleamos un script basado en [SVD](./src/SVD.py) para la superposición estructural.
 
-El archivo `prog3.1.py` fue guardado localmente con el nombre indentity_rmsd.py`.
+El archivo `prog3.1.py` fue guardado localmente con el nombre [indentity_rmsd.py](./src/indentity_rmsd.py).
 
 ## 5. Modificación del script para calcular identidad y RMSD
 
@@ -70,6 +70,6 @@ En cada ejecución se obtuvo el porcentaje de identidad y el RMSD correspondient
 
 Los resultados numéricos del análisis se encuentran en la carpeta:
 
-- results
+- [results](./results/)
 
-En la misma carpeta se incluye, además, un archivo Markdown con la interpretación de dichos resultados.
+En la misma carpeta se incluye, además, un [archivo Markdown](./results/Results.md) con la interpretación de dichos resultados.
