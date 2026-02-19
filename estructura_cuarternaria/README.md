@@ -34,20 +34,20 @@ grep -v "^>" Q9H9S0.fasta | awk '{printf $1}' | awk '{print substr($0,94,68)}'
 
 ### Secuencias
 Las secuencias utilizadas se encuentran en:
--   **Recortada**: [`results_alpha_fold3/Q9H9S0_trimmed.fasta`](results_alpha_fold3/Q9H9S0_trimmed.fasta)
--   **Completa**: [`results_alpha_fold3/Q9H9S0.fasta`](results_alpha_fold3/Q9H9S0.fasta)
+-   **Recortada**: [`Q9H9S0_trimmed.fasta`](results_alpha_fold3/Q9H9S0_trimmed.fasta)
+-   **Completa**: [`Q9H9S0.fasta`](results_alpha_fold3/Q9H9S0.fasta)
 
 ### Evaluación de Calidad (Swiss-Model)
 Para el análisis de calidad de los modelos predichos, utilizamos la herramienta [Swiss-Model Structure Assessment](https://swissmodel.expasy.org/assess).
 
 **Archivos de entrada (Modelos AlphaFold):**
--   Recortado: [`results_alpha_fold3/fold_nanog_trimmed/fold_nanog_trimmed_model_0.cif`](results_alpha_fold3/fold_nanog_trimmed/fold_nanog_trimmed_model_0.cif)
--   Completo: [`results_alpha_fold3/fold_nanog_full/fold_nanog_full_model_0.cif`](results_alpha_fold3/fold_nanog_full/fold_nanog_full_model_0.cif)
+-   Recortado: [`fold_nanog_trimmed_model_0.cif`](results_alpha_fold3/fold_nanog_trimmed/fold_nanog_trimmed_model_0.cif)
+-   Completo: [`fold_nanog_full_model_0.cif`](results_alpha_fold3/fold_nanog_full/fold_nanog_full_model_0.cif)
 
 **Resultados de la evaluación:**
 Los reportes de Swiss-Model se encuentran organizados en la carpeta [`swiss_model`](swiss_model):
--   **Trimmed**: [`swiss_model/NANOG_trimmed`](swiss_model/NANOG_trimmed)
--   **Full**: [`swiss_model/NONOG_full`](swiss_model/NONOG_full)
+-   **Trimmed**: [`NANOG_trimmed`](swiss_model/NANOG_trimmed)
+-   **Full**: [`NONOG_full`](swiss_model/NONOG_full)
 
 ## Interpretación
 El análisis detallado e interpretación de estos resultados se encuentra documentado en: [Results.md](Results.md).
