@@ -35,8 +35,6 @@ Utilizamos el script proporcionado por el Dr. Bruno Contreras, disponible en:
 
 - https://github.com/eead-csic-compbio/bioinformatica_estructural/blob/master/code/prog3.1.py
 
-Además, empleamos un script basado en [SVD](./src/SVD.py) para la superposición estructural.
-
 El archivo `prog3.1.py` fue guardado localmente con el nombre [indentity_rmsd.py](./src/indentity_rmsd.py).
 
 ## 5. Modificación del script para calcular identidad y RMSD
