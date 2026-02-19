@@ -2,7 +2,7 @@
 
 ## 1. Predicción de Estructura con AlphaFold2
 
-El objetivo de esta actividad fue predecir la estructura terciaria de la proteína **CD300H**, la cual puede desempeñar un papel importante en la inmunidad innata al mediar una señal para la producción de un quimioatrayente de neutrófilos.
+El objetivo de esta parte de la actividad fue predecir la estructura terciaria de la proteína **CD300H**, la cual puede desempeñar un papel importante en la inmunidad innata al mediar una señal para la producción de un quimioatrayente de neutrófilos.
 
 ### Metodología
 1.  **Obtención de la secuencia**: La secuencia de la proteína fue descargada de [UniProt](https://www.uniprot.org/uniprotkb/A0A0K2S4Q6/entry).

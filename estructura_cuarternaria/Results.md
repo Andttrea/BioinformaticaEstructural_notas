@@ -1,13 +1,6 @@
 # Interpretación de Resultados AlphaFold 3
 
-Se realizó un análisis de la estructura predicha por AlphaFold 3 para el factor de transcripción NANOG. Para este análisis, se generaron dos modelos: uno utilizando la secuencia completa de la proteína (`NANOG_full`) y otro utilizando una secuencia recortada o "trimeada" (`NANOG_trimmed`).
-
-Utilizamos la secuencia trimeada debido a que se necesitaba realizar una comparación justa con la estructura cristalográfica de referencia. Las estructuras obtenidas mediante cristalografía de rayos X a menudo no resuelven la proteína completa, sino solo los dominios estructurados estables, omitiendo regiones desordenadas (como los extremos N- y C- terminales). Al generar un modelo predicho que corresponde exactamente a la región cristalizada, eliminamos el "ruido" introducido por las largas colas desordenadas que AlphaFold predice con baja confianza y que distorsionan las métricas globales de calidad.
-
-![Estructura Cristalográfica](results_alpha_fold3/proteina_pbd.png) 
-
-
-A continuación, se presentan los resultados de la evaluación de calidad utilizando Swiss-Model Structure Assessment para ambos casos.
+A continuación, se presentan los resultados de la evaluación de calidad utilizando Swiss-Model Structure Assessment para el caso donde hubo un recorte de la secuencia, como en el que no. 
 
 
 ## Resultados para la Secuencia Trimeada (NANOG_trimmed)
@@ -38,6 +31,11 @@ El gráfico muestra una conformación muy limpia. Observamos que la gran mayorí
 ![Estructura Trimeada](swiss_model/NANOG_trimmed/structure.png)
 
 La visualización muestra claramente el homeodominio interactuando con el surco mayor del ADN. Observamos que la estructura es compacta y bien definida. 
+
+Podemos observar como esta estructura se parece a la estructura encontrada en Uniprot.
+
+![Estructura Cristalográfica](results_alpha_fold3/proteina_pbd.png) 
+
 
 ---
 
