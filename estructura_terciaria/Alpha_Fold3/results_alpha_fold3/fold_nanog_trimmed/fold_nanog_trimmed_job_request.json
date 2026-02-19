@@ -1,0 +1,30 @@
+[{
+ "name": "NANOG trimmed",
+ "modelSeeds": [
+  "719116014"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "KKQKTRTVFSSTQLCVLNDRFQRQKYLSLQQMQELSNILNLSYKQVKTWFQNQRMKSKRWQKNNWPKN",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "dnaSequence": {
+    "sequence": "GCGTAATGAGCTTAATGCGC",
+    "count": 1
+   }
+  },
+  {
+   "dnaSequence": {
+    "sequence": "CGCATTACTCGAATTACGCG",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

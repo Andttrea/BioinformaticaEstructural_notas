@@ -1,0 +1,30 @@
+[{
+ "name": "NANOG_full",
+ "modelSeeds": [
+  "1500535351"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MSVDPACPQSLPCFEASDCKESSPMPVICGPEENYPSLQMSSAEMPHTETVSPLPSSMDLLIQDSPDSSTSPKGKQPTSAEKSVAKKEDKVPVKKQKTRTVFSSTQLCVLNDRFQRQKYLSLQQMQELSNILNLSYKQVKTWFQNQRMKSKRWQKNNWPKNSNGVTQKASAPTYPSLYSSYHQGCLVNPTGNLPMWSNQTWNNSTWSNQTQNIQSWSNHSWNTQTWCTQSWNNQAWNSPFYNCGEESLQSCMQFQPNSPASDLEAALEAAGEGLNVIQQTTRYFSTPQTMDLFLNYSMNMQPEDV",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "dnaSequence": {
+    "sequence": "GCGTAATGAGCTTAATGCGC",
+    "count": 1
+   }
+  },
+  {
+   "dnaSequence": {
+    "sequence": "CGCATTACTCGAATTACGCG",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]
